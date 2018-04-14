@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TRF Seattle</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,700,700i" rel="stylesheet">
+  
+  <style>
+      
+
+body {
+background-color:white;
+font-family:'IBM Plex Sans';
+font-weight:100;
+font-size:30px;
+color:rgb(21,97,161)
+}
+
+h1 {
+  font-family:'IBM Plex Sans';
+  color:rgb(21,97,161);
+  font-size:80px;
+  line-height:59px;
+}
+
+
+div#header-1 {
+	background:rgb(230,230,227);
+	width:220px;
+    height:100px;
+    float:left;
+    position:fixed;
+    display:block;
+    z-index:2;
+}
+
+div#header-2 {
+	background:rgb(243,243,243);
+	width:100%;
+    height:100px;
+    float:left;
+    margin-left:220px;
+    position:absolute;
+    display:block;
+    z-index:1;
+}
+
+
+
+
+#acts-sidebar {
+  font-family:'IBM Plex Sans';
+  font-size:30px;
+  font-weight:100;
+  font-style:italic;
+  background:rgb(243,243,243);
+  color:rgb(21,97,161);
+  height:100%;
+  width:180px;
+  padding-left:20px;
+  padding-right:20px;
+  position:fixed;
+  float:left;
+  margin-top:100px;
+  padding-top:50px;
+  z-index:3;
+  
+}
+
+#trf-cities {
+	font-size:30px;
+	font-weight:100;
+    margin-top:-45px;
+    
+}
+
+
+button#meeting-times-button {
+  font-family:'IBM Plex Sans';
+  font-size:30px;
+  font-weight:100;
+  background:white;
+	color:rgb(21,97,161);
+	border:1px solid rgb(21,97,161);
+  text-align:center;
+  border-radius:50%;
+  height:180px;
+  width:180px;
+  padding:20px;
+  position:absolute;
+  left:60%;
+  right:40%;
+  top:30px;
+  z-index:1;
+  
+}
+#meeting-times-button:hover {
+ background:rgba(21,97,161,.6);
+  color:white;
+  border:none;
+cursor:pointer;
+}
+
+button:active {
+outline: none;
+border: none;
+}
+
+#background-image {
+    position:fixed;
+    float:right;
+    margin-left:25%;
+    margin-top:50px;
+    z-index:0;
+    width:850px;
+    min-height:100%;
+}
+
+#trf-logo {
+	width:70px;
+    padding-top:5px;
+    padding-left:70px;
+}
+
+.header-button {
+	font-family:'IBM Plex Sans';
+    font-weight:100;
+    background-color:transparent;
+    border: none;
+    color:rgb(21,97,161);
+    margin-top: 10px;
+    padding:25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    
+    }
+    
+    
+.header-button:hover {
+	background:transparent;
+    color:rgb(234,208,36);
+    cursor:pointer;
+}
+
+
+div.vertical-spacer {
+	height:150px;
+    width:auto;
+    background:transparent;
+}
+
+ul {
+	max-width:900px;
+	top:100px;
+    left:290px;
+    list-style-type:none;
+	display:block;
+    position:absolute;
+    }
+    
+table {
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+    
+div#trf-header {
+	width:50px;
+    text-align:center;
+}
+
+.testimony-pic {
+	max-width:400px;   
+}
+
+#what-we-believe {
+	list-style-type:circle;
+}
+
+  </style>
+  
+ 
+<body>
+
+ <div id="header-1"><img id="trf-logo"  src="https://static1.squarespace.com/static/58e7bc62e6f2e19834547463/59940db46a4963a33bdc7740/59940db546c3c41ad4e97437/1512703469129/logo_web.png" data-image-resolution="300w">  
+  </div>
+  
+  <div id="header-2">
+  <a href="#straight-from-the-bible"><button class="header-button">Straight From The Bible</button></a>
+  <a href="#real-people"><button class="header-button"> Real People Healed</button></a>
+  <a href="#calendar"><button class="header-button"> Calendar</button></a>
+</div>
+
+  
+  <img id="background-image" src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/30729059_10155760532944775_8209151617694433280_o.jpg?_nc_cat=0&oh=a981aba338bb13412f2c34d26c2f41f6&oe=5B291BAA" alt="Holy Ghost falling upon Jesus">
+
+<div><a href="#meeting-times"><button id="meeting-times-button">Meeting Times</button></a></div>
+ 
+  
+  <div id="acts-sidebar">
+  "Repent, be baptized, and ye shall receive the gift of the Holy Ghost."
+  <br>
+  Acts 2:38
+  </div>
+  
+  <ul>
+  <li><div id="trf-header"><h1>Revival Fellowship</h1></div>
+  <li id="trf-cities">Fresno/San Pedro/Seattle/Georgia</li>
+  <div class="vertical-spacer"></div>
+  </li>
+  <li id="straight-from-the-bible"><h1>Straight From The Bible</h1>
+  <br>
+  "Jesus answered, Verily, verily, I say unto thee, Except a man be born of <b>water</b> and of the <b>Spirit</b>, he cannot enter into the kingdom of God." 
+  <br>
+John 3:5
+<br>
+<br>
+<br>
+"He that believeth and is baptized shall be <b>saved</b>; but he that believeth not shall be <b>damned</b>." 
+<br>
+Mark 16:16
+  </li>
+  <br>
+  
+  
+  <li><h1>What We Believe</h1></li>
+  
+        <li id="what-we-believe">The infallibility of the Bible.</li>
+        <li id="what-we-believe">Jesus Christ is the Son of God.</li>
+        <li id="what-we-believe"> The Gospel of His death, ressurrection, and directive to repent, be baptized and receive the Holy Spirit.</li>
+        <li id="what-we-believe"> We are baptised into the Body of Christ (the Church) through the Holy Spirit, with the Bible evidence of speaking in tongues.</li>
+        <li id="what-we-believe"> The miraculous gifts of the Holy Spirit in the Church.</li>
+        <li id="what-we-believe">  Prayer for the sick and the healing pwoer of God.</li>
+        <li id="what-we-believe"> The Bibile gives signs of the immindent return of Jesus Christ.</li>
+
+  
+  
+  <div class="vertical-spacer"></div>
+  
+  <li id="real-people"><h1>Real People Healed</h1>
+  God's Church is as alive today as it was 2,000 years ago.
+  <br>
+  <br>
+  
+  <table>
+  <tr>
+  	<td valign="top">  <img class="testimony-pic" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30688663_10155760045659775_2487292110315716608_n.jpg?_nc_cat=0&oh=4399d93ec3898294fa2fb357be2aff73&oe=5B5853AD"> </td>
+    <td valign="top">A slave to heroin, cocaine, marijuana, methadone and alcohol addiction for 30 years, <b>Dave</b> was born again and instantly freed from all addiction.</td>
+  </tr>
+  <tr>
+  	<td valign="top"><img class="testimony-pic" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30724610_10155760045849775_5258965687610638336_n.jpg?_nc_cat=0&oh=f1b566bc3a1b31829b516318461803f0&oe=5B6FEDFD"></td>
+    <td valign="top">A flesh-eating bacteria left <b>Evelyn</b> in a coma for several days with a 1% chance of survival. After prayer, she was completely healed.</td>
+  </tr>
+  <tr>
+  	<td valign="top"><img class="testimony-pic" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30725393_10155760045974775_1105845617910874112_n.jpg?_nc_cat=0&oh=51c88bfda38779a1c38ed6598ec1ea22&oe=5B5C8112"></td>
+    <td valign="top"><b>Jenny</b> got baptized, and received the Spirit, she was instantly healed from addiction to drinking and smoking, and later from anxiety and panic attacks,and thyroid cancer. </td>
+  </tr>
+  <tr>
+  	<td valign="top"><img class="testimony-pic" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30763015_10155760046274775_4809566259949600768_n.jpg?_nc_cat=0&oh=29a778d183e54b04398200529e08b67f&oe=5B5960F3"></td>
+    <td valign="top">The doctors said <b>Renee</b> wouldn't survive birth, but her parents were spirit-filled and knew God could perform a miracle. They prayed and she was born perfectly healthy. Renee grew up in the church, received the Holy Spirit at age 12, and was baptized. She has been healed of migraines, anxiety, anosmia (no sense of smell), and much more. She rejoices in seeing the impossible happen every day by the power of God.</td>
+  </tr>
+  </table>
+  </li>
+  <li id="meeting-times"><h1>Meeting Times</h1>
+  <b>
+  Sunday 10:30 am
+  <br>
+  Wednesday 7:30 pm
+  <br>
+  Contact: Bobby Moses (206)794-8453
+  <br>
+  17383 SE 189th St., Renton, WA, 98058</b>
+  </li>
+  
+  
+ <div class="vertical-spacer"></div>
+ 
+ <h1 id="calendar">Calendar</h1>
+  
+  </ul>
+
+  
+
+  
+  
+ 
+  
+  </body>
+</html>
